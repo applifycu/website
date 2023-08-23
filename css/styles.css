@@ -1,0 +1,168 @@
+/*Alessandro Rodriguez */
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+/*estilo de la cabecera*/
+header{
+  background-color: #104048;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: black;
+  flex-direction: column;
+}
+header .logo{
+  margin: 0;
+}
+
+/** main**/
+main{
+  padding: 1rem;
+  background-color: #104048;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-title{
+  margin-left: 7px;
+  display: flex;
+}
+.app-message{
+  margin-left: 7px;
+}
+
+/** cards **/
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.app-card{
+  width: 300px;
+  padding: 1rem ;
+  background-color: #333;
+  color: black;
+}
+
+/*footer*/
+footer{
+  background-color: #385058;
+  padding: 1rem ;
+  align-content: center;
+  text-align: center;
+  font-size: 13px;
+}
+.social a{
+  text-align: center;
+  padding: 0.3rem;
+  color: white;
+}
+.requiere{
+  text-align: center;
+  color: white ;
+  padding: 0.2rem;
+}
+.boton-flotante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #00D070;
+  color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+nav{
+  background-color: #000;
+
+  
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+li{
+  margin-right: 20px;
+  background-color: orange;
+  border-radius: 20px;
+  padding: 0.3rem ;
+
+}
+a:hover{
+  color: #f00;
+}
+.tabs{
+  margin-top:10px;
+  margin-bottom: 6px;
+  font-size:15px;
+  padding:4px;
+  list-style:none;
+  background: #385058;
+  box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+  display:inline-block;
+  border-radius:50px;
+  position:relative;
+}
+
+.tabs a{
+  text-decoration:none;
+  color: white;
+  text-transform:uppercase;
+  padding:10px 10px;
+  display:inline-block;
+  position:relative;
+  z-index:1;
+  transition-duration:0.6s;
+}
+
+.tabs a.active{
+  color: #00D070;
+}
+
+.tabs a i{
+  margin-right:5px;
+}
+
+.tabs .selector{
+  height:100%;
+  display:inline-block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:1;
+  border-radius:50px;
+  transition-duration:0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+}
+.terminos{
+  color: #fff;
+}
+.copyright{
+  color: #FFF;
+}
